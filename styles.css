@@ -15,6 +15,11 @@ body {
     cursor: pointer;
 }
 
+.cause-image {
+    max-width: 300px; /* Adjust the value to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .modal-content {
     max-width: 600px;
     margin: auto;

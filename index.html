@@ -9,12 +9,12 @@
 <body>
     <div class="cause-cards">
         <div class="cause-card" onclick="showDetails(1)">
-            <img src="cause1.jpeg" alt="Cause 1">
+            <img src="cause1.jpeg" alt="Cause 1" class="cause-image">
             <h3>Cause 1</h3>
             <p>Supporting education in underprivileged areas.</p>
         </div>
         <div class="cause-card" onclick="showDetails(2)">
-            <img src="cause2.jpg" alt="Cause 2">
+            <img src="cause2.jpg" alt="Cause 2" class="cause-image">
             <h3>Cause 2</h3>
             <p>Providing clean water to rural communities.</p>
         </div>
@@ -24,7 +24,7 @@
     <div class="details-modal" id="detailsModal">
         <div class="modal-content">
             <span class="close-button" onclick="closeDetailsModal()">&times;</span>
-            <img id="modalImage" src="" alt="Cause">
+            <img id="modalImage" src="" alt="Cause" class="cause-image">
             <h2 id="modalTitle">Cause Title</h2>
             <p id="modalDescription">Cause description goes here.</p>
             <!-- Add donation form or other details here -->
